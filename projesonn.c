@@ -57,7 +57,6 @@ void bitis(int can,int altin,char isim[10],FILE *dosya)
 
     fprintf(dosya,"%s\t%d Can\t%d Altin\n",isim,can,altin);     
 
-    system("cls");
 
     fclose(dosya);  
     
@@ -93,13 +92,7 @@ int main()
     int sec2yarasa, sec2tuzak, sec2kurt, sec2yasli;
     int j = 0,kontrol;
     int cev[10];
-    // Alt satırdaki kod dizisi metin belgesindeki tüm kelimeleri bir diziye atar
-    // Metin belgesini bulamadığında ise Dosya bulunamadı yazısını basar.
-    // Metinden alma işlemi de matrislerden yaralanılarak yapıldı
-    // Soruların sorulma aşamasında bu kısımdan faydalanılır
-    
-
-    
+   
     printf("Lutfen Isminizi Giriniz: ");    //İsim Kayıt Edip Oyuna Başlama
     scanf("%s",&sonuc1.isim);
     system("cls");
